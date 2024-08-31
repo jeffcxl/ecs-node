@@ -26,7 +26,7 @@ module "ecs" {
   }
 
   services = {
-    jeff-service = { #task def and service name -> #Change
+    jeff-services = { #task def and service name -> #Change
       cpu    = 512
       memory = 1024
 

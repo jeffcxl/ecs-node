@@ -33,8 +33,8 @@ on:
 env:            
   AWS_REGION: ap-southeast-1                #changed
   ECR_REPOSITORY: jeff/simple-node-app      #changed
-  ECS_SERVICE: jeffdemo         
-  ECS_CLUSTER: ecs-tf                     
+  ECS_SERVICE: jeff-services                #changed
+  ECS_CLUSTER: jeff-ecs-tf                   #changed
   CONTAINER_NAME: ecs-sample         
                                                
 
