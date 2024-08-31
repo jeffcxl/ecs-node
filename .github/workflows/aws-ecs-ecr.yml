@@ -31,9 +31,9 @@ on:
     branches: [ "main" ]
 
 env:            
-  AWS_REGION: ap-southeast-1           
-  ECR_REPOSITORY: chathra-node-app       
-  ECS_SERVICE: ecsdemo         
+  AWS_REGION: ap-southeast-1                #changed
+  ECR_REPOSITORY: jeff/simple-node-app      #changed
+  ECS_SERVICE: jeffdemo         
   ECS_CLUSTER: ecs-tf                     
   CONTAINER_NAME: ecs-sample         
                                                
